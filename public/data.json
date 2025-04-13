@@ -1,8 +1,8 @@
 {
   "cards": [
-    { "status": "Unresolved", "number": 60 },
-    { "status": "Overdue", "number": 16 },
-    { "status": "Open", "number": 43 },
-    { "status": "On Hold", "number": 64 }
+    { "status": "Unresolved", "number": "60" },
+    { "status": "Overdue", "number": "16" },
+    { "status": "Open", "number": "43" },
+    { "status": "On Hold", "number": "64" }
   ]
 }

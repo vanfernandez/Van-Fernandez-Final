@@ -49,7 +49,21 @@ body {
 .card {
   border: 1px solid #DFE0EB;
   border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+
+.custom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+
 .card-title {
   color: #252733;
   font-size: 19px;
