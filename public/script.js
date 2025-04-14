@@ -34,6 +34,10 @@ async function loadCards() {
       colDiv.appendChild(cardDiv);
       container.appendChild(colDiv);
 
+      setTimeout(() => {
+        cardText.style.display = 'block';
+      }, 1000);
+
       cardDiv.addEventListener('mouseenter', () => {
         cardDiv.style.border = '2px solid #0d6efd'; 
         cardTitle.style.color = '#0d6efd'; 
